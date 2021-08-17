@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 113px
+}
+
+p {
+    margin: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.header {
+    background: url("media/img/3.jpg") center;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header a {
+    color: black;
+}
+
+.menu li a {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.tel {
+    font-size: 20px;
+    margin-left: auto;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+.about {
+
+}
+
+.about p {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.images {
+    display: flex;
+
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.left {
+    height: 100%;
+    width: 25%;
+}
+.centre {
+    height: 100%;
+    width: 25%;
+}
+.right {
+    height: 100%;
+    width: 25%;
+}
+.four{
+    height: 100%;
+    width: 25%;
+}
+
+.video {
+    margin-top: 100px;
+    width: 100%;
+}
